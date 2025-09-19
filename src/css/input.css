@@ -1,1 +1,22 @@
+/** font: Open Sans Regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Open+Sans&display=swap');
+/** font: Gemunu Libre Regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Open+Sans&display=swap');
+/** font: Gemunu Libre Bold 700 */
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@700&family=Open+Sans&display=swap');
+
 @import "tailwindcss";
+
+@theme {
+  --font-gemunu-libre: "Gemunu Libre", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+
+  --color-myred : #BC1A45;
+  --color-mymelon : #FFD369;
+  --color-mygrey : #DDDDDD;
+  --color-mywhite : #F7F7F7;
+}
+
+.container {
+  @apply mx-auto;
+}
