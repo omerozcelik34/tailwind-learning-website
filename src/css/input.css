@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
   @apply font-gemunu-libre uppercase;
 }
 
+h2 {
+  @apply text-2xl tracking-wider;
+}
+
 a {
   @apply font-gemunu-libre;
 }
