@@ -7,6 +7,8 @@
 
 @import "tailwindcss";
 
+@custom-variant light (&:where(.light, .light *));
+
 @theme {
   --font-gemunu-libre: "Gemunu Libre", sans-serif;
   --font-open-sans: "Open Sans", sans-serif;
