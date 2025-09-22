@@ -10,18 +10,24 @@
   <link href="./css/output.css" rel="stylesheet">
 </head>
 <body class="font-open-sans">
+
   <!--? Header Section -->
-  <header class="bg-black py-6 lg:py-12 text-mygrey uppercase">
+  <header class="bg-black light:bg-mygrey py-6 lg:py-12 text-mygrey light:text-black uppercase">
     <!--? Header Container -->
     <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
+      <!--? Dark/Light Toggle -->
+      <div class="lg:-mr-1 cursor-pointer text-2xl">
+        <i class="fa-solid fa-sun text-white" id="sun"></i>
+        <i class="fa-solid fa-moon text-black" id="moon"></i>
+      </div>
       <!--? Logo -->
-      <a href="#" class="pl-4 md:pl-2 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-myred to-mygrey">GEGA</a>
+      <a href="#" class="pl-4 md:pl-2 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-myred to-mygrey light:to-black">giga</a>
       <!--? Mobile Menu -->
       <div class="md:hidden">
         <div class="space-y-1 cursor-pointer">
-          <div class="bg-mygrey w-8 h-1 rounded-full"></div>
-          <div class="bg-mygrey w-8 h-1 rounded-full"></div>
-          <div class="bg-mygrey w-8 h-1 rounded-full"></div>
+          <div class="bg-mygrey light:bg-black w-8 h-1 rounded-full"></div>
+          <div class="bg-mygrey light:bg-black w-8 h-1 rounded-full"></div>
+          <div class="bg-mygrey light:bg-black w-8 h-1 rounded-full"></div>
         </div>
       </div>
       <!--? Navigation -->
@@ -35,7 +41,7 @@
           <a href="#" class="hover:text-mymelon transition duration-500">about</a>
         </div>
         <!--? Login Area -->
-        <div class="flex items-center space-x-4 lg:space-x-8 md:mr-2">
+        <div class="flex items-center space-x-4 lg:space-x-4 md:mr-2">
           <!--? Search Area -->
           <form>
             <div class="group border-r px-4 mx-4 py-1 border-myred whitespace-nowrap">
@@ -103,7 +109,7 @@
   </section>
 
   <!--? Mid Section -->
-  <section class="py-24 bg-black">
+  <section class="py-24 bg-black light:bg-mygrey text-mygrey light:text-black">
     <!--? Mid Container -->
     <div class="container flex flex-col lg:flex-row lg:space-x-16 space-y-8 lg:space-y-0">
       <!--? Left Content -->
@@ -111,8 +117,8 @@
         <!--? Titles -->
         <div class="flex gap-2 divide-x divide-myred/50 mb-8 pl-10 lg:pl-0">
           <h2 class="text-myred pr-2"><a href="#">Latest</a></h2>
-          <h2 class="text-mygrey pr-2 hover:text-myred duration-500"><a href="#">Populer</a></h2>
-          <h2 class="text-mygrey hover:text-myred duration-500"><a href="#">Best</a></h2>
+          <h2 class="pr-2 hover:text-myred duration-500"><a href="#">Populer</a></h2>
+          <h2 class="hover:text-myred duration-500"><a href="#">Best</a></h2>
         </div>
         <!--? Movies Container -->
         <div class="flex flex-wrap">
@@ -249,7 +255,7 @@
       <!--? Right Content -->
       <div class="basis-1/3 pl-10 lg:pl-0">
         <!--? Title -->
-        <h2 class="text-mygrey mb-8">hot news</h2>
+        <h2 class="mb-8">hot news</h2>
         <!--? News Container-->
         <div class="flex flex-row flex-wrap lg:flex-nowrap lg:flex-col lg:h-full lg:pb-16 justify-start lg:justify-between space-y-4">
           <!--? New 1 -->
@@ -259,7 +265,7 @@
               <img src="./images/new1.jpg" class="h-full w-full object-cover" alt="">
             </div>
             <!--? New Detail -->
-            <div class="pl-6 basis-2/3 text-mygrey group-hover:text-mymelon group-hover:cursor-pointer duration-500">
+            <div class="pl-6 basis-2/3 group-hover:text-mymelon group-hover:cursor-pointer duration-500">
               <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, inventore.</p>
               <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu-libre">ON NOW 09 2025</p>
             </div>
@@ -271,7 +277,7 @@
               <img src="./images/new2.jpg" class="h-full w-full object-cover" alt="">
             </div>
             <!--? New Detail -->
-            <div class="pl-6 basis-2/3 text-mygrey group-hover:text-mymelon group-hover:cursor-pointer duration-500">
+            <div class="pl-6 basis-2/3 group-hover:text-mymelon group-hover:cursor-pointer duration-500">
               <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, inventore.</p>
               <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu-libre">ON NOW 09 2025</p>
             </div>
@@ -283,7 +289,7 @@
               <img src="./images/new3.jpg" class="h-full w-full object-cover" alt="">
             </div>
             <!--? New Detail -->
-            <div class="pl-6 basis-2/3 text-mygrey group-hover:text-mymelon group-hover:cursor-pointer duration-500">
+            <div class="pl-6 basis-2/3 group-hover:text-mymelon group-hover:cursor-pointer duration-500">
               <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, inventore.</p>
               <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu-libre">ON NOW 09 2025</p>
             </div>
@@ -295,7 +301,7 @@
               <img src="./images/new4.jpg" class="h-full w-full object-cover" alt="">
             </div>
             <!--? New Detail -->
-            <div class="pl-6 basis-2/3 text-mygrey group-hover:text-mymelon group-hover:cursor-pointer duration-500">
+            <div class="pl-6 basis-2/3 group-hover:text-mymelon group-hover:cursor-pointer duration-500">
               <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, inventore.</p>
               <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu-libre">ON NOW 09 2025</p>
             </div>
@@ -307,7 +313,7 @@
               <img src="./images/new5.jpg" class="h-full w-full object-cover" alt="">
             </div>
             <!--? New Detail -->
-            <div class="pl-6 basis-2/3 text-mygrey group-hover:text-mymelon group-hover:cursor-pointer duration-500">
+            <div class="pl-6 basis-2/3 group-hover:text-mymelon group-hover:cursor-pointer duration-500">
               <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, inventore.</p>
               <p class="text-xs tracking-tighter mt-2 font-bold font-gemunu-libre">ON NOW 09 2025</p>
             </div>
@@ -346,7 +352,7 @@
   </section>
 
   <!--? Blog Section -->
-  <section class="py-20 bg-black text-mygrey">
+  <section class="py-20 bg-black light:bg-mygrey text-mygrey light:text-black">
     <!--? Blog Container -->
     <div class="container px-10 lg:px-0">
       <!--? Title -->
@@ -464,12 +470,13 @@
   </section>
 
   <!--? Footer Section -->
-  <footer class="bg-black text-mygrey pt-4">
+  <footer class="bg-black light:bg-mygrey text-mygrey light:text-black pt-4">
     <!--? Footer Container -->
     <div class="container flex flex-col space-y-10 md:space-y-0 md:flex-row md:space-x-10 lg:space-x-0 px-10 lg:px-0 pb-8">
       <!--? Left -->
       <div class="basis-1/3">
-        <a href="#" class="text-2xl lg:text-3xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-myred to-mygrey">GEGA</a>
+        <!--? Logo -->
+        <a href="#" class="text-2xl lg:text-3xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-myred to-mygrey light:to-black">GIGA</a>
         <p class="text-sm mt-2">2025 Seyit Ömer Özçelik No &copy; COPYRIGHT</p>
       </div>
       <!--? Middle -->
@@ -487,12 +494,13 @@
       <div class="basis-1/3">
         <h2 class="mb-2 text-myred">follow us</h2>
         <form action="" class="flex flex-nowrap">
-          <input class="py-1 px-2 bg-transparent border border-myred outline-none placeholder:text-xs placeholder:uppercase" placeholder="type your email" type="text">
+          <input class="py-1 px-2 bg-transparent border border-myred outline-hidden placeholder:text-xs placeholder:uppercase" placeholder="type your email" type="text">
           <button class="py-1 px-2 border border-myred bg-myred uppercase text-nowrap">sign up</button>
         </form>
       </div>
     </div>
   </footer>
 
+  <script src="./js/script.js"></script>
 </body>
 </html>
